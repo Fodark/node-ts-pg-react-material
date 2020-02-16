@@ -12,6 +12,8 @@
   "author": "Fodark",
   "license": "MIT",
   "dependencies": {
+    "@types/express": "^4.17.2",
+    "express": "^4.17.1",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.5"
   }
