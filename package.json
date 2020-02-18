@@ -7,7 +7,9 @@
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly ./lib/server.ts",
     "prod": "tsc && node ./build/server.js",
-    "test": "jest"
+    "test": "jest",
+    "postinstall": "npm run tsc",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "author": "Fodark",
   "license": "MIT",
